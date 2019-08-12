@@ -66,11 +66,6 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-div, nav, header, section, footer, a {
-	border: 2px solid red;
-	margin: 2px;
-}
-
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -256,12 +251,8 @@ a {
 
 .contact {
 	padding-left: 10px;
-	padding-top: 30px;
-}
-@media (max-width 500px) {
-    .contact {
-        width: 100%;
-    }
+    padding-top: 30px;
+    width: 100%;
 }
 
 footer {
@@ -269,3 +260,8 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+/* div, nav, header, section, footer, a {
+	border: 2px solid red;
+	margin: 2px;
+} */
