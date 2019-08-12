@@ -124,6 +124,11 @@ li {
 	display: flex;
     justify-content: space-between;
 }
+@media (max-width: 800px) {
+    .split {
+        justify-content: center;
+    }
+}
 
 .column {
 	flex-direction: column;
@@ -157,10 +162,14 @@ li {
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
 	height: 400px;
 	width: 400px;
-	vertical-align: bottom;
-	text-align: center;
+    vertical-align: bottom;
+    text-align: center;
+    align-items: center;
+    justify-content: center
 }
 
 .header.image {
