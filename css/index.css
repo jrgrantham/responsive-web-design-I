@@ -63,12 +63,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-div, nav, header, section, footer, a {
+/* div, nav, header, section, footer, a {
 	border: 2px solid red;
 	margin: 2px;
-}
+} */
 
 nav {
 	display: flex;
@@ -114,7 +115,7 @@ li {
 .main {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/* border-top: 1px solid black; */
+	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	flex-wrap: wrap;
 	align-content: space-between
@@ -182,7 +183,8 @@ li {
 }
 
 .middle-img {
-	padding-left: 10px;
+    padding-left: 0px 10px;
+    width: 100%;
 }
 
 .services {
@@ -200,6 +202,11 @@ li {
 h1 {
 	font-size: 80px;
 	padding-top: 60px;
+}
+@media (max-width: 800px) {
+    h1 {
+        font-size: 60px;
+    }
 }
 
 /* img {
